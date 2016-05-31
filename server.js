@@ -1,7 +1,7 @@
 var express = require('express'),
     app = express(),
     port = 3000,
-    topic = require('./node_modules/topic-cloud');
+    topic = require('./topic-cloud');
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
