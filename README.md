@@ -9,7 +9,7 @@ Frontend: Backbone
 ## How to run ##
 Firstly, pull this repository onto your machine, then:
 
-- cd ~/<directory you pulled into>
+- cd ~/{directory you pulled into}/TopicCloud
 - npm install
 - node server.js
 
