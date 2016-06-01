@@ -10,6 +10,7 @@ Frontend: Backbone
 Firstly, pull this repository onto your machine, then:
 
 - cd ~/<directory you pulled into>
+- npm install
 - node server.js
 
 After you have started the Node backend you will then be able to access the frontend by opening the index.html file (found in the root directory) in a browser.
