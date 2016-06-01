@@ -16,12 +16,12 @@ $(function () {
                 reset:true,
                 success: function (collection) {
                     collection.each(function(item) {
-                        this.$(".topic").append(
-                            "<span class='topicItem topic-size-" + item.get("weight") +
+                        this.$(".topicCloud").append(
+                            "<li class='topicItem topic-size-" + item.get("weight") +
                             " topic-sentiment-" + item.get("sentimentColour") +
                             " topic-position-" + item.get("position") + "' data-id='" + encodeURIComponent(item.get("id")).replace(/[!'()*]/g, escape) + "'>" +
                                 item.get("label") +
-                            "</span><br />"
+                            "</li>"
                         );
                     });
                 }

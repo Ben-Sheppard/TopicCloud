@@ -15,22 +15,26 @@ body {
     margin: 0% 15% 0% 15%;
 }
 
-.topic span {
-    display: block;
+.topicCloud {
+    width: 100%;
+    text-align: center;
 }
 
-.topic span:hover {
+.topicCloud li {
+    display: inline-block;
+    margin: 4px 6px;
+}
+
+.topicCloud li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
 .topic-position-right {
-    float:right;
     margin: 2px;
 }
 
 .topic-position-left {
-    float: left;
     margin: 2px;
 }
 

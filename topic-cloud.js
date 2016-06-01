@@ -1,5 +1,5 @@
 var arraySort = require('array-sort'),
-    topicJson = arraySort(require('../data/topicData.json').topics, 'volume'),
+    topicJson = arraySort(require(__dirname + '/data/topicData.json').topics, 'volume'),
     positions = ['left','right'],
     urlencode = require('urlencode');
     exports = module.exports = {};
